@@ -180,7 +180,7 @@ const charts = {};
 let curId = DATA.routes[0].id;
 
 const fmt = n => '¥' + n.toLocaleString('zh-CN');
-const AIRLINE_COLORS = {'春秋航空':'#0071e3','吉祥航空':'#ff9500'};
+const AIRLINE_COLORS = {'春秋航空':'#0071e3','吉祥航空':'#ff9500','中国国航':'#e3001b'};
 const acolor = name => AIRLINE_COLORS[name] || '#8e8e93';
 
 function route() { return DATA.routes.find(r => r.id === curId); }
